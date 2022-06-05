@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  box-shadow: 1px 5px 5px 1px black;
+  margin-top: 5%;
+  padding: 3rem;
+  width: 50%;
+}
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+#count {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+#buttons {
+  display: flex;
+}
+button {
+  background-color: rgb(3, 3, 112);
+  color: white;
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 1rem;
+  box-shadow: 1px 1px 5px 5px black;
+}
+button:active {
+  background-color: rgb(102, 102, 196);
+}
+body {
+  background-image: url(./mainBcg.jpeg);
+}
